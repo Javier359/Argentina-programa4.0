@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.conteiner{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: blanchedalmond;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(65, 65, 65)
+
+}
+.conteiner .lado-izquierdo{
+    position: relative;
+    background: rgb(10, 56, 73);
+    padding: 40px;
+}
+.text-perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+
+}
+.text-perfil .imagen{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.text-perfil h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+.text-perfil h2 span{
+    font-size: small;
+    font-weight: 300;
+}
+.contacto-info{
+    padding-top: 40px;
+}
+.titulo{
+    color: #fff;
+    text-transform:uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contacto-info ul {
+    position: relative;
+}
+.contacto-info ul li {
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contacto-info ul li .icono{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: #03a9f4 ;
+}
+.contacto-info ul li span{
+    color: #fff;
+
+}
+.contacto-info ul li span a {
+    color: rgb(255, 255, 255);
+}
+
+.contacto-educacion .titulo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contacto-educacion li  {
+    margin-bottom: 15px;
+}
+.contacto-educacion h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contacto-educacion h4{
+    color: #ffffff;
+    font-weight: 500;
+}
+.contacto-Lenguaje .texto{
+    color: #fff;
+    font-size: small;   
+}
+* li {
+    list-style: none;
+}
+
+.conteiner .lado-derecho{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.acerca{
+    margin-bottom: 50px;
+}
+.acerca:last-child{
+    margin-bottom: 0px;
+}
+.titulo2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing:1;
+    margin-bottom: 10px;
+}
+
+p{
+    color: rgb(51, 51, 51);
+}
+.acerca .box {
+    display: flex;
+    flex-direction: row;
+    margin:20px 0;
+}
+.acerca .box .tiempo-compania {
+    min-width: 150px;
+}
+.acerca .box .tiempo-compania h5 {
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+}
+.acerca .box .texto {
+   
+    color: #003147;
+}
+.acerca .box .habilidades {
+    min-width: 170px;
+}
+.acerca .box .habilidades h5 {
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+}
+.animado {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.fotos div {
+    background-color: beige;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.fotos #uno{
+    background-color: rosybrown;
+}
+
+.fotos #dos{
+    background-color: darkorchid;
+}
+
+.fotos #tres{
+    background-color: limegreen;
+}
